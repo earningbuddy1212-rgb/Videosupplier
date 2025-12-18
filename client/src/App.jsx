@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import VideoList from './components/VideoList'
 import LoginUpload from './components/LoginUpload'
 
-const API = 'http://localhost:4000'
+import { API } from './config'
 
 export default function App() {
   const [videos, setVideos] = useState([])

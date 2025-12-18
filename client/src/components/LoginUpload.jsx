@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const API = 'http://localhost:4000'
+import { API } from '../config'
 
 export default function LoginUpload({ onUploaded }) {
   const [token, setToken] = useState(localStorage.getItem('vs_token') || '')

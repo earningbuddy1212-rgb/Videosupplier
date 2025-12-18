@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "4000:4000"
+    environment:
+      UPLOAD_PASSWORD: ${UPLOAD_PASSWORD:-devpass}
+      JWT_SECRET: ${JWT_SECRET:-devsecret}
+      PORT: 4000
+      NODE_ENV: production
+    volumes:
+      - ./server/videos:/app/server/videos
+    restart: unless-stopped

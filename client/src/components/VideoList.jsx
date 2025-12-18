@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const API = 'http://localhost:4000'
+import { API } from '../config'
 
 function Player({ src }) {
   return (

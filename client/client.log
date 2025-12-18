@@ -8,3 +8,8 @@ nohup: ignoring input
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
+10:41:11 AM [vite] vite.config.js changed, restarting server...
+10:41:11 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5173/Videosupplier/
+  ➜  Network: use --host to expose
