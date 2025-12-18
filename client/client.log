@@ -1,0 +1,10 @@
+nohup: ignoring input
+
+> video-supplier-client@0.1.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 210 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
